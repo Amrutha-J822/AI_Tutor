@@ -1,4 +1,4 @@
-# AI Tutor Project
+# AI Tutor 🤖
 
 This project implements a conversational AI tutor using OpenAI's GPT-4o model, speech-to-text, text-to-speech, and optional lip syncing with Wav2Lip.
 
