@@ -1,0 +1,49 @@
+# Ignore Python virtual environments
+venv/
+backend/venv/
+Wav2Lip/venv/
+
+# Ignore Python cache and temp files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.tmp
+*.log
+
+# Ignore environment variables and secrets
+.env
+backend/.env
+frontend/.env
+
+# Ignore node_modules for frontend
+frontend/node_modules/
+node_modules/
+
+# Ignore build and dist folders
+frontend/build/
+frontend/dist/
+backend/build/
+backend/dist/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Wav2Lip model files and results (optional, if you don't want to track large files)
+Wav2Lip
+Wav2Lip/*.pth
+Wav2Lip/*.pt
+Wav2Lip/results/
+Wav2Lip/temp/
+
+# Ignore audio/video temp files
+*.mp3
+*.wav
+*.mp4
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
